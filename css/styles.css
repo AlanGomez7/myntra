@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .nav-links-1-div {
+    position: absolute;
+    left: 0;
+    margin: auto;
+    margin-top: 39px;
+    margin-left: 188px;
+    font-size: 12px;
+    font-weight: 500;
+  }
+
+  .nav-links-2-div{
+    position: absolute;
+    right: 0;
+    margin: auto;
+    margin-top: 39px;
+    margin-right: 61px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .nav-links-1{
+    margin: 0 10px;
+  }
+
+  .nav-links-2{
+    margin: 0 10px;
+  }
+
+  .nav {
+    height: 100px;
+    width: 100%;
+    background-color: #fff;
+    position: fixed;
+    box-shadow: 0 0.5px 0 0 gainsboro;
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+  }
+  
+  .nav > .nav-header > .nav-title {
+    display: inline-block;
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    padding: 24px 10px 10px 40px;
+  }
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+  }
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 13px 10px 13px 10px;
+    text-decoration: none;
+    color: #323233;
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  .nav > #nav-check {
+    display: none;
+  }
+
+  #profile-logo{
+    height: 15px;
+    width: 16px;
+    align-content: center;
+  }
+
+ #middle-div{
+    height: 400px;
+    width: 100%;
+    margin-top: 100px;
+    /* background-color: bisque; */
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%);
+    transition: 0.3s;
+    margin-top: 25px;
+    display: inline-block;
+    height: 100px;
+    width: 228px;
+}
+
+  .card-image{
+    height: 330px;
+    width: 228px;
+  }
+
+  h1{
+    color: #232F3E;
+    padding: 50px ;
+    font-size: xx-large;
+    
+  }
+
+  .myntra-brands-excl{
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  footer{
+    background-color:#F4F5FA;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+
+  #footer{
+    
+    margin: 0 209px;
+  }
+
+  p{
+    color:grey;
+    align-items: center;
+  }
